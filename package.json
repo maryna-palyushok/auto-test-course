@@ -1,0 +1,32 @@
+{
+  "name": "9-js-ui-wdio-xotabu4",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Demo project for StartIT students",
+  "scripts": {
+    "test": "wdio run wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StartITProtractorJS/9-js-ui-wdio-Xotabu4.git"
+  },
+  "author": "Oleksandr Khotemskyi <xotabu4@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@wdio/cli": "^5.16.7"
+  },
+  "devDependencies": {
+    "@types/mocha": "5.2.7",
+    "@types/node": "^10.0.0",
+    "@types/chai": "4.2.0",
+    "@wdio/local-runner": "^5.16.7",
+    "@wdio/mocha-framework": "^5.16.5",
+    "@wdio/spec-reporter": "^5.16.5",
+    "@wdio/sync": "^5.16.5",
+    "chromedriver": "89.0.0",
+    "wdio-chromedriver-service": "^5.0.2",
+    "typescript": "3.7.2",
+    "chai": "4.3.4",
+    "ts-node": "8.5.2"
+  }
+}

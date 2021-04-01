@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "WDIO TESTS",
+        "program": "${workspaceFolder}\\node_modules\\.bin\\wdio",
+        // "program": "./node_modules/.bin/istanbul cover ./node_modules/bin/_mocha",1
+        // "program": "${workspaceFolder}/node_modules/rollup/bin/rollup",
+        "sourceMaps": true,
+        "args": [
+            // "-c"
+          " ./wdio.conf.js", 
+           " --spec", 
+           " ./test/specs/checkout.ts"
+        ],
+        "env": {
+          "DEBUG": "1",
+          "SUT_URL": "http://demo.litecart.net"
+        },
+        "port": 5858,
+        "console": "integratedTerminal",
+        "internalConsoleOptions": "neverOpen"
+      }
+    ]
+}
